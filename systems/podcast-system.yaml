@@ -4,7 +4,7 @@ metadata:
   name: podcast
   description: Podcast playback
   annotations:
-    backstage.io/techdocs-ref: dir:podcast-system/
+    backstage.io/techdocs-ref: url:https://github.com/devurandomsorg/backstage-catalog/tree/main/systems/podcast-system
 spec:
   owner: team-b
   domain: playback
