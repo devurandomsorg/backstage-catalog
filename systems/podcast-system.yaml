@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/devurandomsorg/backstage-catalog/tree/main/systems/podcast-system
     backstage.io/kubernetes-namespace: rhdh-test
-    backstage.io/kubernetes-id: rhdh-test
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=rhdh'
 spec:
   owner: team-b
   domain: playback
